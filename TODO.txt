@@ -1,0 +1,46 @@
+Récolte : 
+Ped a qui parler avec une liste des récoltes possibles  
+
+Transformation Jus : 
+
+
+
+Tranformation Vin : 
+
+Oeil ouvrire un menu avec remplir qui ouvre l'inventaire et lancer pour lancer la production 
+
+
+Fermatation: 
+Compteur au dessus Fini dans 300sec 
+Box zone :
+coords = vector3(-1869.66, 2066.12, 140.98),
+length = 1,
+width = 1.5,
+heading = 90,
+minZ = 139.98,
+maxZ = 141.98,
+
+used : false
+
+
+Config.Fermentation = {
+    {
+        coords = vector3(-1869.66, 2066.12, 140.98),
+        length = 1,
+        width = 1.5,
+        heading = 90,
+        minZ = 139.98,
+        maxZ = 141.98,
+        used = false
+    }
+}
+
+Config.Recipe = {
+    redWine = {
+        processTime = 10 -- sec per product
+        requiredItem = {
+            bottle = 1
+            redgrapejuice = 2
+        }
+    }
+}
